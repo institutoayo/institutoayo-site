@@ -519,14 +519,14 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 500; }
   --texto: #2A1F30; --texto-suave: #6A5B72; --ouro-tinta: #9A5F18;
   color: var(--texto);
 }
-.parceiros { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 18px 36px; }
-.parceiro { flex: 0 0 auto; width: 240px; }
+.parceiros { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 14px 22px; }
+.parceiro { flex: 0 0 auto; width: 175px; }
 .parceiro img { width: 100%; height: auto; display: block; }
 .parceiro b { display: none; font-size: 13.5px; font-weight: 700; line-height: 1.35; color: var(--texto-suave); text-align: center; }
 .parceiro.sem-foto img { display: none; }
 .parceiro.sem-foto b { display: block; }
 .parceiros-extra { margin: 34px auto 0; font-size: 15.5px; color: var(--texto-suave); max-width: 74ch; text-align: center; }
-@media (max-width: 700px) { .parceiro { width: 152px; } .parceiros { gap: 8px 12px; } }
+@media (max-width: 700px) { .parceiro { width: 106px; } .parceiros { gap: 4px 10px; } }
 
 /* pagina doe */
 .doe-grade { display: grid; grid-template-columns: 1fr 1fr; gap: 52px; align-items: start; }
