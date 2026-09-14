@@ -1,0 +1,22 @@
+Logos dos parceiros do Instituto Ayo.
+
+Coloque cada arquivo aqui com o nome exato da lista abaixo, em svg, png ou webp,
+de preferencia com fundo transparente e pelo menos 300px de largura.
+Assim que o arquivo existir, a logo entra no lugar do nome escrito na home.
+
+muhcab.png                           MUHCAB
+ceam.png                             CEAM
+neap-chiquinha-gonzaga.png           NEAP Chiquinha Gonzaga
+casa-da-mulher-cidada.png            Casa da Mulher Cidadã
+associacao-prover.png                Associação Prover
+gerando-falcoes.png                  Gerando Falcões
+sebrae-rj.png                        Sebrae RJ
+puc-rio.png                          PUC-Rio
+crai.png                             CRAI
+ccpar.png                            CCPAR
+prefeitura-do-rio.png                Prefeitura do Rio
+secretaria-municipal-de-cultura.png  Secretaria Municipal de Cultura
+porto-maravilha.png                  Porto Maravilha
+sim-eu-sou-do-meio.png               Sim, Eu Sou do Meio
+casa-amarela-providencia.png         Casa Amarela Providência
+spm-rio.png                          Secretaria de Políticas e Promoção da Mulher
