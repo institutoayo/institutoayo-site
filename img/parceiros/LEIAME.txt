@@ -1,22 +1,17 @@
 Logos dos parceiros do Instituto Ayo.
 
-Coloque cada arquivo aqui com o nome exato da lista abaixo, em svg, png ou webp,
-de preferencia com fundo transparente e pelo menos 300px de largura.
-Assim que o arquivo existir, a logo entra no lugar do nome escrito na home.
+As doze logos deste diretorio vieram do proprio mural de parceiros do site antigo do Instituto,
+recortadas uma a uma, com o fundo branco tornado transparente e padronizadas em 400x160.
 
-muhcab.png                           MUHCAB
-ceam.png                             CEAM
-neap-chiquinha-gonzaga.png           NEAP Chiquinha Gonzaga
-casa-da-mulher-cidada.png            Casa da Mulher Cidadã
-associacao-prover.png                Associação Prover
-gerando-falcoes.png                  Gerando Falcões
-sebrae-rj.png                        Sebrae RJ
-puc-rio.png                          PUC-Rio
-crai.png                             CRAI
-ccpar.png                            CCPAR
-prefeitura-do-rio.png                Prefeitura do Rio
-secretaria-municipal-de-cultura.png  Secretaria Municipal de Cultura
-porto-maravilha.png                  Porto Maravilha
-sim-eu-sou-do-meio.png               Sim, Eu Sou do Meio
-casa-amarela-providencia.png         Casa Amarela Providência
-spm-rio.png                          Secretaria de Políticas e Promoção da Mulher
+Ainda faltam as logos abaixo. Coloque o arquivo aqui com o nome exato, em png ou svg,
+de preferencia com fundo transparente, e ele entra no mural sem precisar mexer no codigo.
+
+ceam.png                           CEAM
+neap-chiquinha-gonzaga.png         NEAP Chiquinha Gonzaga
+associacao-prover.png              Associacao Prover
+gerando-falcoes.png                Gerando Falcoes
+sebrae-rj.png                      Sebrae RJ
+puc-rio.png                        PUC-Rio
+crai.png                           CRAI
+sim-eu-sou-do-meio.png             Sim, Eu Sou do Meio
+casa-amarela-providencia.png       Casa Amarela Providencia
