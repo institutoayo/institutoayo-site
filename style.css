@@ -512,25 +512,21 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 500; }
   border-radius: 0 var(--raio-bloco) var(--raio-bloco) 0;
 }
 
-/* rede de parceiros */
-.parceiros { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; }
-.parceiro {
-  display: flex; align-items: center; justify-content: center; text-align: center;
-  min-height: 96px; padding: 16px 18px; background: #fff;
-  border: var(--contorno); border-radius: var(--raio-bloco);
-  transition: border-color .25s ease, transform .25s ease;
+/* rede de parceiros: faixa clara fixa, logo solta, sem caixa nem contorno */
+.secao--parceiros {
+  background: #FBF1F4;
+  --roxo: #5B2D8E; --roxo-vivo: #8A2BC4;
+  --texto: #2A1F30; --texto-suave: #6A5B72; --ouro-tinta: #9A5F18;
+  color: var(--texto);
 }
-.parceiro:hover { border-color: var(--linha-forte); transform: translateY(-2px); }
+.parceiros { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 18px 36px; }
+.parceiro { flex: 0 0 auto; width: 240px; }
 .parceiro img { width: 100%; height: auto; display: block; }
-.parceiro b { font-size: 13.5px; font-weight: 700; line-height: 1.35; color: var(--texto-suave); }
-.parceiro img + b { display: none; }
+.parceiro b { display: none; font-size: 13.5px; font-weight: 700; line-height: 1.35; color: var(--texto-suave); text-align: center; }
 .parceiro.sem-foto img { display: none; }
 .parceiro.sem-foto b { display: block; }
-.parceiros-extra { margin-top: 22px; font-size: 15.5px; color: var(--texto-suave); max-width: 74ch; }
-[data-tema="escuro"] .parceiro { background: rgba(255,255,255,.95); border-color: rgba(255,255,255,.18); }
-[data-tema="escuro"] .parceiro b { color: #4A3A55; }
-.secao--noite .parceiro { background: #fff; border-color: rgba(255,255,255,.2); }
-@media (max-width: 700px) { .parceiros { grid-template-columns: repeat(auto-fill, minmax(136px, 1fr)); gap: 10px; } .parceiro { min-height: 84px; padding: 12px 14px; } }
+.parceiros-extra { margin: 34px auto 0; font-size: 15.5px; color: var(--texto-suave); max-width: 74ch; text-align: center; }
+@media (max-width: 700px) { .parceiro { width: 152px; } .parceiros { gap: 8px 12px; } }
 
 /* pagina doe */
 .doe-grade { display: grid; grid-template-columns: 1fr 1fr; gap: 52px; align-items: start; }
