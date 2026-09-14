@@ -1,0 +1,10 @@
+# Arquivos de apoio locais, nao vao para o site
+_apoio/
+img/acervo/
+*.pdf
+*.zip
+*.tgz
+*.pptx
+logo original*.jpg
+Thumbs.db
+.DS_Store
