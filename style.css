@@ -513,25 +513,24 @@ h1 em, h2 em, h3 em { font-style: italic; font-weight: 500; }
 }
 
 /* rede de parceiros */
-.parceiros { display: grid; grid-template-columns: repeat(auto-fill, minmax(164px, 1fr)); gap: 14px; }
+.parceiros { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; }
 .parceiro {
   display: flex; align-items: center; justify-content: center; text-align: center;
-  min-height: 98px; padding: 18px 14px; background: var(--fundo-alt);
+  min-height: 96px; padding: 16px 18px; background: #fff;
   border: var(--contorno); border-radius: var(--raio-bloco);
   transition: border-color .25s ease, transform .25s ease;
 }
 .parceiro:hover { border-color: var(--linha-forte); transform: translateY(-2px); }
-.parceiro img {
-  max-height: 54px; max-width: 100%; width: auto; height: auto; object-fit: contain;
-  filter: grayscale(1); opacity: .78; transition: filter .25s ease, opacity .25s ease;
-}
-.parceiro:hover img { filter: none; opacity: 1; }
+.parceiro img { width: 100%; height: auto; display: block; }
 .parceiro b { font-size: 13.5px; font-weight: 700; line-height: 1.35; color: var(--texto-suave); }
 .parceiro img + b { display: none; }
 .parceiro.sem-foto img { display: none; }
 .parceiro.sem-foto b { display: block; }
-.secao--noite .parceiro { background: rgba(255,255,255,.05); border-color: rgba(255,255,255,.16); }
-.secao--noite .parceiro b { color: #E0CFE8; }
+.parceiros-extra { margin-top: 22px; font-size: 15.5px; color: var(--texto-suave); max-width: 74ch; }
+[data-tema="escuro"] .parceiro { background: rgba(255,255,255,.95); border-color: rgba(255,255,255,.18); }
+[data-tema="escuro"] .parceiro b { color: #4A3A55; }
+.secao--noite .parceiro { background: #fff; border-color: rgba(255,255,255,.2); }
+@media (max-width: 700px) { .parceiros { grid-template-columns: repeat(auto-fill, minmax(136px, 1fr)); gap: 10px; } .parceiro { min-height: 84px; padding: 12px 14px; } }
 
 /* pagina doe */
 .doe-grade { display: grid; grid-template-columns: 1fr 1fr; gap: 52px; align-items: start; }

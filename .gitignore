@@ -8,3 +8,6 @@ img/acervo/
 logo original*.jpg
 Thumbs.db
 .DS_Store
+
+# pasta que o aplicativo cria para as previas enviadas no chat
+Claude outputs/
