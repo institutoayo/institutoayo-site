@@ -148,7 +148,7 @@
       if (im.dataset.vigiada) return;
       im.dataset.vigiada = '1';
       im.addEventListener('error', function () {
-        var pai = im.closest('.gal-item, .curso, .programa, .linha-foto-media');
+        var pai = im.closest('.gal-item, .curso, .programa, .linha-foto-media, .parceiro');
         if (pai) pai.classList.add('sem-foto');
         im.style.display = 'none';
       });
@@ -262,8 +262,43 @@
     }).join('');
   }
 
+
+  function copiaManual(txt, pronto) {
+    var c = doc.createElement('textarea');
+    c.value = txt;
+    c.setAttribute('readonly', '');
+    c.style.position = 'fixed';
+    c.style.top = '-1000px';
+    c.style.opacity = '0';
+    doc.body.appendChild(c);
+    c.select();
+    try { doc.execCommand('copy'); pronto(); } catch (e) {}
+    doc.body.removeChild(c);
+  }
+
+  function copiar() {
+    doc.querySelectorAll('[data-copiar]').forEach(function (bt) {
+      bt.addEventListener('click', function () {
+        var alvo = doc.querySelector(bt.getAttribute('data-copiar'));
+        if (!alvo) return;
+        var txt = (alvo.textContent || '').trim();
+        var antes = bt.textContent;
+        var pronto = function () {
+          bt.textContent = 'Copiado';
+          bt.classList.add('feito');
+          setTimeout(function () { bt.textContent = antes; bt.classList.remove('feito'); }, 2200);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(txt).then(pronto, function () { copiaManual(txt, pronto); });
+        } else {
+          copiaManual(txt, pronto);
+        }
+      });
+    });
+  }
+
   doc.addEventListener('DOMContentLoaded', function () {
-    ano(); tema(); menu(); topo(); contadores(); lightbox(); fotoSegura();
+    ano(); tema(); menu(); topo(); contadores(); lightbox(); fotoSegura(); copiar();
     paginaProgramas(); paginaCursos(); paginaProjetos(); paginaGaleria(); paginaImprensa();
     surge();
   });
