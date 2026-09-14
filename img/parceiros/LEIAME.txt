@@ -1,7 +1,10 @@
 Logos dos parceiros do Instituto Ayo.
 
-As doze logos deste diretorio vieram do proprio mural de parceiros do site antigo do Instituto,
-recortadas uma a uma, com o fundo branco tornado transparente e padronizadas em 400x160.
+As onze logos deste diretorio vieram do proprio mural de parceiros do site antigo do Instituto,
+recortadas uma a uma, com o fundo branco tornado transparente.
+Cada arquivo tem 400x160 com fundo transparente e a marca centralizada, dimensionada para
+que todas ocupem a mesma area visual. No site elas aparecem soltas, sem caixa e sem contorno.
+Ministerio da Cultura e Governo Federal sao uma assinatura so, no arquivo governo-federal.png.
 
 Ainda faltam as logos abaixo. Coloque o arquivo aqui com o nome exato, em png ou svg,
 de preferencia com fundo transparente, e ele entra no mural sem precisar mexer no codigo.
