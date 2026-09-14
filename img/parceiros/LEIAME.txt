@@ -1,20 +1,22 @@
 Logos dos parceiros do Instituto Ayo.
 
-As onze logos deste diretorio vieram do proprio mural de parceiros do site antigo do Instituto,
-recortadas uma a uma, com o fundo branco tornado transparente.
-Cada arquivo tem 400x160 com fundo transparente e a marca centralizada, dimensionada para
-que todas ocupem a mesma area visual. No site elas aparecem soltas, sem caixa e sem contorno.
-Ministerio da Cultura e Governo Federal sao uma assinatura so, no arquivo governo-federal.png.
+Sao 18 marcas. Onze vieram do proprio mural do site antigo do Instituto. As outras sete foram
+buscadas na fonte oficial de cada parceiro, site proprio ou perfil verificado:
 
-Ainda faltam as logos abaixo. Coloque o arquivo aqui com o nome exato, em png ou svg,
-de preferencia com fundo transparente, e ele entra no mural sem precisar mexer no codigo.
+  puc-rio.png                    brasao em SVG do site puc-rio.br
+  sebrae.png                     logo em SVG do portal sebrae.com.br
+  gerando-falcoes.png            logo do site gerandofalcoes.com, versao monocromatica
+  associacao-prover.png          logo do site associacaoprover.org
+  casa-amarela-providencia.png   logo do site casaamarelaprovidencia.org
+  crai-rio.png                   marca do perfil oficial @crairio
+  sim-eu-sou-do-meio.png         marca do perfil oficial @simeusoudomeio
 
-ceam.png                           CEAM
-neap-chiquinha-gonzaga.png         NEAP Chiquinha Gonzaga
-associacao-prover.png              Associacao Prover
-gerando-falcoes.png                Gerando Falcoes
-sebrae-rj.png                      Sebrae RJ
-puc-rio.png                        PUC-Rio
-crai.png                           CRAI
-sim-eu-sou-do-meio.png             Sim, Eu Sou do Meio
-casa-amarela-providencia.png       Casa Amarela Providencia
+Todos os arquivos tem 400x160 com fundo transparente e a marca centralizada, dimensionada
+para que todas ocupem a mesma area visual. No site aparecem soltas, sem caixa e sem contorno.
+
+Ministerio da Cultura e Governo Federal sao uma assinatura so, em governo-federal.png.
+CEAM e NEAP Chiquinha Gonzaga sao equipamentos da Secretaria Especial de Politicas e Promocao
+da Mulher e nao tem marca propria, por isso aparecem como texto abaixo do mural.
+
+Para trocar qualquer logo por um arquivo original enviado pelo parceiro, basta substituir o
+arquivo aqui mantendo o mesmo nome. Se o arquivo novo nao tiver 400x160, me peca para padronizar.
